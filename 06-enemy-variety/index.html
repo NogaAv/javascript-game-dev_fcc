@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enemy types witj Javascript sub classing</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <!--By incoding images as img tags, I can insure they are fully loaded before my javascript code runs - By using 'load' eventListener. It will prevent potential errors-->
+    <img id="worm" src="./enemy_worm.png"/><!--Any html with id, becomes global variable in the javascript (by DOM)-->
+    <img id="ghost" src="./enemy_ghost.png"/>
+    <img id="spider" src="./enemy_spider.png"/>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#canvas1{
+    border: 3px black solid;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*By incoding images as img tags, I can insure they are fully loaded before my javascript code runs - By using 'load' eventListener. It will prevent potential errors */
+img{
+    display: none;
+}
